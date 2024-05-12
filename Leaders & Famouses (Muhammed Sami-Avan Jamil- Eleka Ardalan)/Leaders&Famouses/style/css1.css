@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 300px;}
+header {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+	background: rgb(0,0,0);
+background: linear-gradient(0deg, rgb(12, 14, 18) 0%, rgb(4, 47, 102) 50%, rgb(204, 231, 232) 100%);
+}
+
+footer {
+	text-align: center; 
+	width: 100%;
+	height: 100px;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+  
+}
+footer .overlay2{
+	width: 100%;
+	height: 100px;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+	background: rgb(4,4,10);
+}
+
+
+h1 {
+	
+	font-size: 80px;
+	margin-bottom: 30px;
+  
+}
+
+h3, p {
+	margin-bottom: 30px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+  margin: 10px;
+	border-radius: 50px;
+	color: #333;
+	background: #b3bff1;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+	cursor: pointer;
+}
+
+
+body
+{
+  background-color: rgb(0, 0, 0);
+  font-family: "Quicksand", sans-serif;
+
+  
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+  }
+  .border:hover {
+    border: 1px solid #fff;
+  }
+  
+a:link {text-decoration: none;}
+a:visited { text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+
+  .card {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+  }
+  
+  .card:hover 
+  {
+    background-position: center;
+    background-size: 500px;
+  }
+  h2 {
+    color: #57abf5;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    
+  }
+  .card:hover h2{opacity: 1;}
+
+  .btn {
+    color: #fff;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    text-align: center;
+    
+  }
+  .card:hover button{opacity: 1; text-align: center;}
+
+  .card0 {
+    background: url("https://www.rudaw.net/s3/rudaw.net/ContentFiles/791261Image1.jpg?mode=crop&quality=70&rand=1&scale=both&w=752&h=472&version=6470389") center center no-repeat;
+    background-size: 300px;
+  }
+ 
+  .card1 {
+    background: url("https://live.staticflickr.com/2667/3674985239_744aec1775_b.jpg") center center no-repeat;
+    background-size: 300px;
+  }
+ 
+
+  .card2 {
+    background: url("https://media.shafaq.com/media/arcella/1692174923705.jpeg") center center no-repeat;
+    background-size: 300px;
+  }
+
+  .card3 {
+    background: url("https://www.imago-images.com/bild/st/0053706616/s.jpg") center center no-repeat;
+    background-size: 300px;
+  }
+  
+  
+
+  .card4 {
+    background: url("https://ilkha.com/img/OldFeaturedImage/EN//Norm/if-we-had-the-philosophy-of-ahmad-i-khani-we-would-be-more-advanced-than-europece.jpg") center center no-repeat;
+    background-size: 300px;
+  }
+  
+
+  .card5  {
+    background: url("https://i.discogs.com/8mv2JnQgWRnDtOWBZjNIQd8ThmJADghugElri5ps5ug/rs:fit/g:sm/q:90/h:183/w:275/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTU3MDAy/MTAtMTQ5MjYxNDc3/Ni0zMTI3LmpwZWc.jpeg") center center no-repeat;
+    background-size: 300px;
+  }
+  
+
+  .card6  {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-CaoqB5WQRG6vhWop6vC94gKx2zohs_Y2YJLwOvN7Wg&s") center center no-repeat;
+    background-size: 300px;
+  }
+ 
+
+  .card7  {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/4/40/Latif_Halmat_2.jpg") center center no-repeat;
+    background-size: 300px;
+  }
+
+ 
